@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Formulário de satisfação</h1>
+        <form method="post" action="processar_pesquisa.html">
+            <section>
+                <h2>Dados pessoais</h2>
+                <p>
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" placeholder="Digite aqui seu nome" id="name"/>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Digite aqui seu email" id="email"/>
+                </p>
+                <p>
+                    <label for="number">Telefone para contato:</label>
+                    <input type="tel" placeholder="Digite aqui seu telefone" id="number"/>
+                </p>
+            </section>
+            <section>
+                <h2>Dados de pesquisa</h2>
+                <p>
+                    <h3>O quanto você gosta de café?</h3>
+                    <p>
+                        <input type="radio" id="nao" name="cafe" />
+                        <label for="nao">Não gosto</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="gosto" name="cafe" />
+                        <label for="gosto">Gosto</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="amo" name="cafe" />
+                        <label for="amo">Amo</label>
+                    </p>
+                </p>
+                <p>
+                    <h3>O quanto você gosta de leite?</h3>
+                    <p>
+                        <input type="radio" id="nao" name="leite" />
+                        <label for="nao">Não gosto</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="gosto" name="leite" />
+                        <label for="gosto">Gosto</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="amo" name="leite" />
+                        <label for="amo">Amo</label>
+                    </p>
+                </p>
+                <p>
+                    <h3>Com qual frequência você consome algum deles?</h3>
+                    <select>
+                        <option>Não consumo nenhum deles</option>
+                        <option>1-2 dias na semana</option>
+                        <option>3-4 dias na semana</option>
+                        <option>Consumo todos os dias</option>
+                    </select>
+                </p>
+                <p>
+                    <h4>Termos de compartilhamento de dados.</h4>
+                    <input type="checkbox" id="termos" />
+                    <label for="termos">Eu autorizo compartilhar minhas respostas com terceiros.</label>
+                </p>
+            </section>
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+</html>
