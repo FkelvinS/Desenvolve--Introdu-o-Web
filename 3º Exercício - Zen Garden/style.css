@@ -1,0 +1,14 @@
+/* Color Theme Swatches in Hex */
+/*
+.destaque { color: #F249B7; }
+.NovemberStudio-2-hex { color: #1A1C40; }
+.principal { color: #141526; }
+.NovemberStudio-4-hex { color: #A2CDF2; }
+.background { color: #EBF2F2; }
+*/
+
+
+ html {
+    background: #EBF2F2;
+    color: #141526;
+ }
